@@ -1,0 +1,44 @@
+.content{
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: transform 0.4s;
+}
+span{
+    font-size: 15px;
+    font-weight: normal;
+}
+body{
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.row{
+    margin-top: 100px;
+}
+button{
+    height: 50px;
+}
+
+.content:hover{
+    transform: scale(1.1);
+}
+
+div:nth-child(1) > div > p.c5{
+    color: rgb(167, 165, 165);
+}
+
+div:nth-child(1) > div > p.c6{
+    color: rgb(167, 165, 165);
+}
+
+div:nth-child(1) > div > p.c7{
+    color: rgb(167, 165, 165);
+}
+
+div:nth-child(1) > div > p.c8{
+    color: rgb(167, 165, 165);
+}
+
+div:nth-child(2) > div > p.c8{
+    color: rgb(167, 165, 165);
+}
